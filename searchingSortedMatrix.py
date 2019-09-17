@@ -23,7 +23,7 @@ def searchSortedMatrix(matrix, targetValue):
   leftPoint = 0
   rightPoint = totalRows * TotalCols - 1
   while left <= right:
-    middlePoint = leftPoint + (rightPoint - leftPoint) // 2
+    middlePoint = (leftPoint + rightPoint) // 2
     middleValue = matix[middlPoint//totalCols][middlePoint%totalCols]
     if middleValue == targetValue:
       return True
