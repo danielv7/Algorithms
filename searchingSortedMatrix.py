@@ -3,7 +3,7 @@
 #Every row is sorted from left to right in increasing order, 
 #with the first integer of each row being greater than the last integer of the previous row's last column
 
-#For example given a matrix and traget value return True or False if target value is present in matrix:
+#For example given a matrix and target value return True or False if target value is present in matrix:
 #matrix = [[1, 2, 3, 4],
 #          [5, 6, 7, 8],
 #          [9, 10, 11, 12]
@@ -12,7 +12,8 @@
 #Function should return true because 12 is present in matrix
 
 
-#Time Complixity O(log(n) Space O(1)
+#Time Complexity O(log(m+n) where m and n are the length of the rows and columns
+#Space Complexity O(1)
 def searchSortedMatrix(matrix, targetValue):
   #Inital check for empty matrix
   if len(matrix) == 0:
