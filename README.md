@@ -1,2 +1,2 @@
 # Algorithms & Data Structures Coding Problems
-Repository of all coding questions I have done.
+Repository of some fun coding questions I have done.
